@@ -1,0 +1,56 @@
+h1 {
+    font-size: xx-large;
+    color: #ff6955;
+}
+
+#starsFrame .glyphicon {
+    margin: 0.3em;
+    font-size: 1.75em;
+}
+
+#starsFrame, #answerFrame {
+    width: 40%;
+    min-width: 80px;
+    float: left;
+    min-height: 220px;
+}
+
+#buttonFrame {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#buttonFrame button {
+    margin: 0.2em;
+}
+
+#starsFrame .well, #answerFrame .well {
+    height: 150px;
+    margin-top: 50px;
+    min-height: 230px;
+}
+
+#numbersFrame .number.selected-true {
+    background-color: #e8e8e8 !important;
+    color: #aaa;
+    cursor: not-allowed !important;
+}
+
+#numbersFrame .number.solved {
+    background-color: #aaeeaa !important;
+    color: #467733;
+    cursor: not-allowed !important;
+}
+
+#numbersFrame .well .number, #answerFrame .well span {
+    display: inline-block;
+    margin: 0.3em;
+    background-color: #bab;
+    width: 25px;
+    font-size: 18px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
